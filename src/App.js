@@ -1,0 +1,31 @@
+import React from "react";
+import './App.css';
+import Navigation from "./components/Navigation";
+import {Router} from "./route/Router";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import ContentHeader from "./components/ContentHeader";
+import {Link} from "react-router-dom";
+
+function App() {
+    return (
+        <div className="app">
+            <div className="app-header">
+                <Header/>
+            </div>
+            <div className="app-sidebar">
+                <Navigation/>
+            </div>
+            <div className="app-content">
+                <ContentHeader/>
+                <Router/>
+            </div>
+            <div className="app app-footer-fixed">
+                <Footer/>
+            </div>
+            <Link href="#" data-click="scroll-top" className="btn-scroll-top fade"><i className="fa fa-arrow-up"/></Link>
+        </div>
+    );
+}
+
+export default App;
