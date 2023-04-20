@@ -4,7 +4,7 @@ class UsersData extends Component{
     render(){
         return(
             <div>
-                Home
+                user data
             </div>
         )
     }

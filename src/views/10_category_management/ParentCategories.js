@@ -4,7 +4,7 @@ class ParentCategories extends Component{
     render(){
         return(
             <div>
-                Home
+                parent cate
             </div>
         )
     }

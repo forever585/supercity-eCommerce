@@ -4,7 +4,7 @@ class SubCategories extends Component{
     render(){
         return(
             <div>
-                Home
+                sub cate
             </div>
         )
     }

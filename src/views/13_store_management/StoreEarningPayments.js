@@ -1,13 +1,13 @@
 import React, {Component} from "react";
 
-class StoreEarnigPayments extends Component{
+class StoreEarningPayments extends Component{
     render(){
         return(
             <div>
-                Home
+                store earning
             </div>
         )
     }
 }
 
-export default StoreEarnigPayments
+export default StoreEarningPayments

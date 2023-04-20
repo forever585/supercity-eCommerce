@@ -4,7 +4,7 @@ class StoreList extends Component{
     render(){
         return(
             <div>
-                Home
+                store list
             </div>
         )
     }

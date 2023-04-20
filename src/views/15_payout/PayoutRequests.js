@@ -4,7 +4,7 @@ class PayoutRequests extends Component{
     render(){
         return(
             <div>
-                Home
+                payout req
             </div>
         )
     }

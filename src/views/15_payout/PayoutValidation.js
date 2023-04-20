@@ -4,7 +4,7 @@ class PayoutValidation extends Component{
     render(){
         return(
             <div>
-                Home
+                pay out val
             </div>
         )
     }

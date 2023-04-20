@@ -4,7 +4,7 @@ class BulkUpload extends Component{
     render(){
         return(
             <div>
-                Home
+                bulk upload pro
             </div>
         )
     }

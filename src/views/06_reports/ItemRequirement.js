@@ -4,7 +4,7 @@ class ItemRequirement extends Component{
     render(){
         return(
             <div>
-                Home
+                item requirement
             </div>
         )
     }

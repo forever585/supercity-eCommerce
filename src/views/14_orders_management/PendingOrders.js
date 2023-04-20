@@ -4,7 +4,7 @@ class PendingOrders extends Component{
     render(){
         return(
             <div>
-                Home
+                pending orders
             </div>
         )
     }

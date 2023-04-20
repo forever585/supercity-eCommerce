@@ -4,7 +4,7 @@ class DayWiseOrders extends Component{
     render(){
         return(
             <div>
-                Home
+                day wise orders
             </div>
         )
     }

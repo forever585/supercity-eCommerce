@@ -4,7 +4,7 @@ class Reports extends Component{
     render(){
         return(
             <div>
-                Home
+                report
             </div>
         )
     }

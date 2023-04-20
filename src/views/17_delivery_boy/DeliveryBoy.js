@@ -4,7 +4,7 @@ class DeliveryBoy extends Component{
     render(){
         return(
             <div>
-                Home
+                delivery boy
             </div>
         )
     }

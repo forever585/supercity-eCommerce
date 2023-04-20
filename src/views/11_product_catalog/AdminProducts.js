@@ -4,7 +4,7 @@ class AdminProducts extends Component{
     render(){
         return(
             <div>
-                Home
+                admin prod
             </div>
         )
     }

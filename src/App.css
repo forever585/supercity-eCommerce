@@ -86,3 +86,7 @@ body {
 .min-height-202{
   min-height: 202px;
 }
+
+.card-header.card-header-primary {
+  padding: 10px !important;
+}

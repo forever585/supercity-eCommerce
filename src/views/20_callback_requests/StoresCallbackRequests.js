@@ -4,7 +4,7 @@ class StoresCallbackRequests extends Component{
     render(){
         return(
             <div>
-                Home
+                store callback req
             </div>
         )
     }

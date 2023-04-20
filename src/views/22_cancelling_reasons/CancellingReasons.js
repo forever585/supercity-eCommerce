@@ -4,7 +4,7 @@ class CancellingReasons extends Component{
     render(){
         return(
             <div>
-                Home
+                cancelled reason
             </div>
         )
     }

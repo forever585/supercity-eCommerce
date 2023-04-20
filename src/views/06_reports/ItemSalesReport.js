@@ -4,7 +4,7 @@ class ItemSalesReport extends Component{
     render(){
         return(
             <div>
-                Home
+                item sale repo
             </div>
         )
     }

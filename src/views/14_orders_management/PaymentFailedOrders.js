@@ -4,7 +4,7 @@ class PaymentFailedOrders extends Component{
     render(){
         return(
             <div>
-                Home
+                payment failed orders
             </div>
         )
     }

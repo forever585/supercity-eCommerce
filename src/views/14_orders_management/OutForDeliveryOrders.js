@@ -4,7 +4,7 @@ class OutForDeliveryOrders extends Component{
     render(){
         return(
             <div>
-                Home
+                out for delivery orders
             </div>
         )
     }

@@ -4,7 +4,7 @@ class RejectedByStore extends Component{
     render(){
         return(
             <div>
-                Home
+                reject by store
             </div>
         )
     }

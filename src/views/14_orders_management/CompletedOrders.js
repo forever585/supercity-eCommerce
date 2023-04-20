@@ -4,7 +4,7 @@ class CompletedOrders extends Component{
     render(){
         return(
             <div>
-                Home
+                complete orders
             </div>
         )
     }

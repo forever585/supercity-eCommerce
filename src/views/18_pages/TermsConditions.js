@@ -4,7 +4,7 @@ class TermsConditions extends Component{
     render(){
         return(
             <div>
-                Home
+                term cond
             </div>
         )
     }

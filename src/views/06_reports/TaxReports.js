@@ -4,7 +4,7 @@ class TaxReports extends Component{
     render(){
         return(
             <div>
-                Home
+                tax report
             </div>
         )
     }

@@ -4,7 +4,7 @@ class StoreFeedback extends Component{
     render(){
         return(
             <div>
-                Home
+                store feedback
             </div>
         )
     }

@@ -4,7 +4,7 @@ class KeywordsTendingSearch extends Component{
     render(){
         return(
             <div>
-                Home
+                key tren
             </div>
         )
     }

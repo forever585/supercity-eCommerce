@@ -1,11 +1,12 @@
 import React from "react";
 import './App.css';
 import Navigation from "./components/Navigation";
-import {Router} from "./route/Router";
+import {Routers} from "./route/Routers";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import ContentHeader from "./components/ContentHeader";
 import {Link} from "react-router-dom";
+import TableWithAction from "./components/TableWithAction";
 
 function App() {
     return (
@@ -18,12 +19,15 @@ function App() {
             </div>
             <div className="app-content">
                 <ContentHeader/>
-                <Router/>
+                <div className="container-fluid">
+                    <Routers/>
+                </div>
             </div>
             <div className="app app-footer-fixed">
                 <Footer/>
             </div>
-            <Link href="#" data-click="scroll-top" className="btn-scroll-top fade"><i className="fa fa-arrow-up"/></Link>
+            <Link href="#" data-click="scroll-top" className="btn-scroll-top fade"><i
+                className="fa fa-arrow-up"/></Link>
         </div>
     );
 }

@@ -4,7 +4,7 @@ class Cities extends Component{
     render(){
         return(
             <div>
-                Home
+                city
             </div>
         )
     }

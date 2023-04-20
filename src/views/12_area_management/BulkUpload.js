@@ -4,7 +4,7 @@ class BulkUpload extends Component{
     render(){
         return(
             <div>
-                Home
+                bulk up area
             </div>
         )
     }

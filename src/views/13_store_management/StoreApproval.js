@@ -4,7 +4,7 @@ class StoreApproval extends Component{
     render(){
         return(
             <div>
-                Home
+                store appr
             </div>
         )
     }

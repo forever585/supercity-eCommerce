@@ -4,7 +4,7 @@ class OngoingOrders extends Component{
     render(){
         return(
             <div>
-                Home
+                ongoing orders
             </div>
         )
     }

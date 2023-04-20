@@ -4,7 +4,7 @@ class RedeemValue extends Component{
     render(){
         return(
             <div>
-                Home
+                redeem
             </div>
         )
     }

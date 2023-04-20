@@ -4,7 +4,7 @@ class UsersFeedback extends Component{
     render(){
         return(
             <div>
-                Home
+                users feedback
             </div>
         )
     }

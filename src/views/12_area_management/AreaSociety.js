@@ -4,7 +4,7 @@ class AreaSociety extends Component{
     render(){
         return(
             <div>
-                Home
+                area society
             </div>
         )
     }

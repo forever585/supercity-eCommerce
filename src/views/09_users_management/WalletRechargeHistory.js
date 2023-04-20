@@ -4,7 +4,7 @@ class WalletRechargeHistory extends Component{
     render(){
         return(
             <div>
-                Home
+                wallet recharge history
             </div>
         )
     }
