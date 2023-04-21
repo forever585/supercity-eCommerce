@@ -1,6 +1,8 @@
 import React, {Component} from "react";
-import TableWithAction from "../../components/TableWithAction";
+import CustomTable from "../../components/CustomTable";
 import {Link} from "react-router-dom";
+import {data} from "../../data/placeholderData";
+import {buttonType} from "../../data/configuration";
 
 class Roles extends Component {
 
@@ -8,31 +10,9 @@ class Roles extends Component {
         super(props);
         this.state = {
             categories: ["Watersports", "Soccer", "Chess", "Running"],
-            data: [
-                {
-                    id: 1, name: "P1", category: "Watersports",
-                    description: "P1 (Watersports)", price: 3
-                },
-                {
-                    id: 2, name: "P2", category: "Watersports",
-                    description: "P2 (Watersports)", price: 4
-                },
-                {
-                    id: 3, name: "P3", category: "Running",
-                    description: "P3 (Running)", price: 5
-                },
-                {
-                    id: 4, name: "P4", category: "Chess",
-                    description: "P4 (Chess)", price: 6
-                },
-                {
-                    id: 5, name: "P5", category: "Chess",
-                    description: "P6 (Chess)", price: 7
-                },
-            ]
+            data: data.products
         }
     }
-
 
 
     render() {
@@ -51,8 +31,12 @@ class Roles extends Component {
                 </div>
 
                 <div className="container"><br/>
-                        <TableWithAction type={{"ROLE NAME": 'name'}}
-                                         data={this.state.data}/>
+                    <CustomTable type={{"ROLE NAME": 'name'}}
+                                 typeEx={{}}
+                                 style={{}}
+                                 image={[]}
+                                 buttonType={buttonType.editAndDelete}
+                                 data={this.state.data}/>
 
                 </div>
             </div>

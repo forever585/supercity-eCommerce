@@ -6,7 +6,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import ContentHeader from "./components/ContentHeader";
 import {Link} from "react-router-dom";
-import TableWithAction from "./components/TableWithAction";
+import CustomTable from "./components/CustomTable";
 
 function App() {
     return (

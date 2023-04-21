@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import {Link, NavLink} from "react-router-dom";
-import {routers} from "../route/stringOfRoute";
+import {routers} from "../data/configuration";
 
 class Navigation extends Component {
     render() {
