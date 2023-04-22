@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import CustomTable from "../../components/CustomTable";
 import {Link} from "react-router-dom";
-import {data} from "../../data/placeholderData";
+import {data} from "../../data/examData";
 import {buttonType} from "../../data/configuration";
 
 class Roles extends Component {
@@ -9,7 +9,6 @@ class Roles extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            categories: ["Watersports", "Soccer", "Chess", "Running"],
             data: data.products
         }
     }
@@ -35,7 +34,10 @@ class Roles extends Component {
                                  typeEx={{}}
                                  style={{}}
                                  image={[]}
-                                 buttonType={buttonType.editAndDelete}
+                                 button={{
+                                     "ACTION": buttonType.editAndDelete,
+                                 }}
+                                 searchField={true}
                                  data={this.state.data}/>
 
                 </div>

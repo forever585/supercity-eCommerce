@@ -1,6 +1,6 @@
 import React from "react";
 import './App.css';
-import Navigation from "./components/Navigation";
+import Navigation from "./components/navigation/Navigation";
 import {Routers} from "./route/Routers";
 import Header from "./components/Header";
 import Footer from "./components/Footer";

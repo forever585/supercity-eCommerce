@@ -1,14 +1,13 @@
 import React, {Component} from "react";
 import {Link} from "react-router-dom";
 import CustomTable from "../../components/CustomTable";
-import {data} from "../../data/placeholderData";
+import {data} from "../../data/examData";
 import {buttonType} from "../../data/configuration";
 
 class Tax extends Component{
     constructor(props) {
         super(props);
         this.state = {
-            categories: ["Watersports", "Soccer", "Chess", "Running"],
             data: data.products
         }
     }
@@ -33,7 +32,10 @@ class Tax extends Component{
                                  typeEx={{}}
                                  style={{}}
                                  image={[]}
-                                 buttonType={buttonType.editAndDelete}
+                                 button={{
+                                     "ACTION": buttonType.editAndDelete,
+                                 }}
+                                 searchField={true}
                                  data={this.state.data}/>
 
                 </div>

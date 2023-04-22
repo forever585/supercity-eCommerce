@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import {Link} from "react-router-dom";
 import CustomTable from "../../components/CustomTable";
-import {data} from "../../data/placeholderData";
+import {data} from "../../data/examData";
 import {buttonType} from "../../data/configuration";
 
 class SubAdmin extends Component {
@@ -9,7 +9,6 @@ class SubAdmin extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            categories: ["Watersports", "Soccer", "Chess", "Running"],
             data: data.products
         }
     }
@@ -30,11 +29,14 @@ class SubAdmin extends Component {
                 </div>
 
                 <div className="container"><br/>
-                    <CustomTable type={{"IMAGE": 'name', "NAME": "name", "EMAIL": "category"}}
+                    <CustomTable type={{"IMAGE": 'image', "NAME": "name", "EMAIL": "category"}}
                                  typeEx={{}}
                                  style={{}}
-                                 image={[]}
-                                 buttonType={buttonType.editAndDelete}
+                                 image={["image"]}
+                                 button={{
+                                     "ACTION": buttonType.editAndDelete,
+                                 }}
+                                 searchField={true}
                                  data={this.state.data}/>
 
                 </div>
